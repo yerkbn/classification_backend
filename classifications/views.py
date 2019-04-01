@@ -13,6 +13,6 @@ def classify(request):
 
 
     return Response({
-        'class': 'cat',
-        'percision': 0.84
+        'class': 'Tiger',
+        'accuracy': 0.84
     }, status=HTTP_200_OK)
