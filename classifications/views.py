@@ -11,4 +11,8 @@ from rest_framework.status import (
 @permission_classes((AllowAny,))
 def classify(request):
 
-    return Response({}, status=HTTP_200_OK)
+
+    return Response({
+        'class': 'cat',
+        'percision': 0.84
+    }, status=HTTP_200_OK)
