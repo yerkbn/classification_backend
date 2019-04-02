@@ -10,8 +10,11 @@ from rest_framework.status import (
 @api_view(['POST'])
 @permission_classes((AllowAny,))
 def classify(request):
-
-
+    try:
+        file = request.data['file']
+    except KeyError:
+        return Response({'file': ['no file']}, status=HTTP_400_BAD_REQUEST)
+    print(file)
     return Response({
         'class': 'Tiger',
         'accuracy': 0.84
