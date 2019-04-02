@@ -14,8 +14,8 @@ def classify(request):
         file = request.data['file']
     except KeyError:
         return Response({'file': ['no file']}, status=HTTP_400_BAD_REQUEST)
-    print(file)
     return Response({
         'class': 'Tiger',
-        'accuracy': 0.84
+        'accuracy': 0.84,
+        'name': str(file),
     }, status=HTTP_200_OK)
