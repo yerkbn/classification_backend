@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="791b20a0-ec75-4dfe-8b30-d1f267257ff1" name="Default Changelist" comment="" />
+    <list default="true" id="791b20a0-ec75-4dfe-8b30-d1f267257ff1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification_backend/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,44 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classifications/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aptfile">
+        <entry file="file://$PROJECT_DIR$/classification_backend/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="318">
+              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +49,11 @@
         <option value="$PROJECT_DIR$/classifications/migrations/urls.py" />
         <option value="$PROJECT_DIR$/classifications/urls.py" />
         <option value="$PROJECT_DIR$/classification_backend/urls.py" />
-        <option value="$PROJECT_DIR$/classification_backend/settings.py" />
         <option value="$PROJECT_DIR$/classifications/classification/classification.py" />
         <option value="$PROJECT_DIR$/classifications/classification_research/classification.py" />
-        <option value="$PROJECT_DIR$/classifications/views.py" />
         <option value="$PROJECT_DIR$/Aptfile" />
+        <option value="$PROJECT_DIR$/classifications/views.py" />
+        <option value="$PROJECT_DIR$/classification_backend/settings.py" />
       </list>
     </option>
   </component>
@@ -102,6 +75,11 @@
           <expand>
             <path>
               <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
               <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -155,18 +133,19 @@
       <workItem from="1554140132877" duration="10166000" />
       <workItem from="1554191727678" duration="20000" />
       <workItem from="1554280792500" duration="11529000" />
-      <workItem from="1554312494433" duration="1998000" />
+      <workItem from="1554312494433" duration="2457000" />
+      <workItem from="1554315664154" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23841000" />
+    <option name="totallyTimeSpent" value="25410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="31" width="1859" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18477662" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1869829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -225,16 +204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classification_backend/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -245,13 +214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications/views.py">
+    <entry file="file://$PROJECT_DIR$/Aptfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -262,10 +228,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aptfile">
+    <entry file="file://$PROJECT_DIR$/classifications/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification_backend/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
