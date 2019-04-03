@@ -1,8 +1,7 @@
 import cv2
 import numpy as np
 import os
-from random import shuffle
-from tqdm import tqdm
+
 
 import tflearn
 from tflearn.layers.conv import conv_2d, max_pool_2d

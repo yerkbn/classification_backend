@@ -27,11 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classifications/classification_research/classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -148,12 +145,12 @@
       <workItem from="1554139985016" duration="128000" />
       <workItem from="1554140132877" duration="10166000" />
       <workItem from="1554191727678" duration="20000" />
-      <workItem from="1554280792500" duration="11097000" />
+      <workItem from="1554280792500" duration="11195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21411000" />
+    <option name="totallyTimeSpent" value="21509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="31" width="1859" height="1049" extended-state="6" />
@@ -247,11 +244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classifications/classification_research/classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
