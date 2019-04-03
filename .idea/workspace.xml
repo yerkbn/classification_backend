@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="791b20a0-ec75-4dfe-8b30-d1f267257ff1" name="Default Changelist" comment="" />
+    <list default="true" id="791b20a0-ec75-4dfe-8b30-d1f267257ff1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/classification_research/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/classification_research/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/classification_research/classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/dog_vs_cat-0.001-6conv-5epoche.model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/dog_vs_cat-0.001-6conv-5epoche.model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/dog_vs_cat-0.001-6conv-5epoche.model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/submission-file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/classification_research/submission-file.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,25 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classification_backend/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classifications/views.py">
+        <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="-584">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,6 +42,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>save</find>
+      <find>EPOCHE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,6 +60,7 @@
         <option value="$PROJECT_DIR$/Aptfile" />
         <option value="$PROJECT_DIR$/classifications/views.py" />
         <option value="$PROJECT_DIR$/classification_backend/settings.py" />
+        <option value="$PROJECT_DIR$/classifications/classification_research/CNN.py" />
       </list>
     </option>
   </component>
@@ -90,6 +88,12 @@
               <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
               <item name="classifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
+              <item name="classifications" type="462c0819:PsiDirectoryNode" />
+              <item name="classification_research" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,17 +147,18 @@
       <workItem from="1554191727678" duration="20000" />
       <workItem from="1554280792500" duration="11529000" />
       <workItem from="1554312494433" duration="2457000" />
-      <workItem from="1554315664154" duration="2253000" />
+      <workItem from="1554315664154" duration="3406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26553000" />
+    <option name="totallyTimeSpent" value="27706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="31" width="1859" height="1049" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1869829" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1869829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -166,7 +171,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -212,16 +217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aptfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -236,6 +231,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classifications/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classification_backend/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
@@ -246,12 +251,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications/views.py">
+    <entry file="file://$PROJECT_DIR$/classifications/classification_research/classification.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="-584">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

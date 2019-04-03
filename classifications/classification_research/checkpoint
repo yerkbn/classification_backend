@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/yerkebulan/app/dev/projects/classification_backend/classifications/classification_research/dog_vs_cat-0.001-6conv-5epoche.model"
-all_model_checkpoint_paths: "/home/yerkebulan/app/dev/projects/classification_backend/classifications/classification_research/dog_vs_cat-0.001-6conv-5epoche.model"
+model_checkpoint_path: "/home/yerkebulan/app/dev/projects/classification_backend/classifications/classification_research/dog_vs_cat-0.001-8conv-10epoche.model"
+all_model_checkpoint_paths: "/home/yerkebulan/app/dev/projects/classification_backend/classifications/classification_research/dog_vs_cat-0.001-8conv-10epoche.model"

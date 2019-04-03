@@ -14,8 +14,7 @@ class CNN:
     def __init__(self):
         self.IMG_SIZE = 50
         self.LR = 1e-3
-        self.EPOCHE = 5
-        self.MODEL_NAME = 'dog_vs_cat-{}-{}.model'.format(self.LR, '6conv-5epoche')
+        self.MODEL_NAME = 'dog_vs_cat-{}-{}.model'.format(self.LR, '8conv-10epoche')
         self.CURRENT = "{}/classifications/classification_research/".format(os.getcwd())
 
         # ----------- MODEL CREATION ----------
@@ -38,6 +37,15 @@ class CNN:
         # layer
         convnet = conv_2d(convnet, 64, 2, activation='relu')
         convnet = max_pool_2d(convnet, 2)
+        # layer
+        convnet = conv_2d(convnet, 32, 2, activation='relu')
+        convnet = max_pool_2d(convnet, 2)
+        # layer
+        convnet = conv_2d(convnet, 64, 2, activation='relu')
+        convnet = max_pool_2d(convnet, 2)
+
+
+
         # layer
         convnet = fully_connected(convnet, 1024, activation='relu')
         convnet = dropout(convnet, 0.8)
