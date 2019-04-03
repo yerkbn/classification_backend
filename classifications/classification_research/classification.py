@@ -13,7 +13,7 @@ IMG_SIZE = 50
 LR = 1e-3
 EPOCHE = 5
 MODEL_NAME = 'dog_vs_cat-{}-{}.model'.format(LR, '6conv-5epoche')
-CURRENT = '/home/yerkebulan/app/dev/projects/classification_backend/classifications/classification_research/'
+CURRENT = "{}/classifications/classification_research/".format(os.getcwd())
 
 def prediction(image):
     # ----------- MODEL CREATION ----------
