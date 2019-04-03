@@ -6,7 +6,9 @@ from rest_framework.status import (
         HTTP_400_BAD_REQUEST,
     )
 
-from classifications.classification_research import classification
+from .classification_research.CNN import CNN
+
+CNN_obj = CNN()
 
 
 @api_view(['POST'])
@@ -17,6 +19,6 @@ def classify(request):
     except KeyError:
         return Response({'file': ['no file']}, status=HTTP_400_BAD_REQUEST)
 
-    result = classification.prediction(file)
+    result = CNN_obj.prediction(file)
 
     return Response(result, status=HTTP_200_OK)

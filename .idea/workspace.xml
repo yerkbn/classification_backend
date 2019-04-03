@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="791b20a0-ec75-4dfe-8b30-d1f267257ff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/classifications/classification_research/classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/classification_research/classification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classifications/classification_research/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/classification_research/classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifications/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifications/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classifications/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="506">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -24,11 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classifications/classification_research/classification.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="242">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +65,8 @@
         <option value="$PROJECT_DIR$/classification_backend/urls.py" />
         <option value="$PROJECT_DIR$/classification_backend/settings.py" />
         <option value="$PROJECT_DIR$/classifications/classification/classification.py" />
-        <option value="$PROJECT_DIR$/classifications/views.py" />
         <option value="$PROJECT_DIR$/classifications/classification_research/classification.py" />
+        <option value="$PROJECT_DIR$/classifications/views.py" />
       </list>
     </option>
   </component>
@@ -76,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,22 +90,10 @@
               <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="classifications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classification_backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classification_backend" type="462c0819:PsiDirectoryNode" />
-              <item name="classifications" type="462c0819:PsiDirectoryNode" />
-              <item name="classification_research" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,18 +140,18 @@
       <workItem from="1554139985016" duration="128000" />
       <workItem from="1554140132877" duration="10166000" />
       <workItem from="1554191727678" duration="20000" />
-      <workItem from="1554280792500" duration="11195000" />
+      <workItem from="1554280792500" duration="11529000" />
+      <workItem from="1554312494433" duration="1819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21509000" />
+    <option name="totallyTimeSpent" value="23662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="31" width="1859" height="1049" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28957528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18477662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -169,7 +164,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.50108695" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -232,20 +227,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications/views.py">
+    <entry file="file://$PROJECT_DIR$/classifications/classification_research/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifications/classification_research/classification.py">
+    <entry file="file://$PROJECT_DIR$/classifications/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="506">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
